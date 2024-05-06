@@ -1,0 +1,9 @@
+export const PLUGIN_NAME = "HNSW Indexer";
+export const FLOW_NAME = "HNSW Indexer";
+export const ERROR_NO_API_KEY = "Must supply either `options.apiKey` or set `GOOGLE_API_KEY` environment variable.";
+export const EMBEDDING_MODEL_NAME = "Gemini Model embedding-001";
+export const EMBEDDING_MODEL = "embedding-001";
+export const EMBEDDING_TITLE = "Gemini embedding-001";
+export const SCHEMA_INPUT = "Your data and other documents path to be learned by the AI";
+export const SCHEMA_OUTPUT = "Your expected output path for your Vector Store Index that is processed based on the data and documents you provided";
+export const SCHEMA_RESULT = "The Vector indexing process result";

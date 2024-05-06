@@ -12,8 +12,8 @@
     "ai",
     "generative-ai"
   ],
-  "version": "0.0.2-rc.2",
-  "description": "A Genkit plugin flow to save data into vector store for Retrieval Augmented Generation (RAG) in Generative AI",
+  "version": "0.0.2-rc.3",
+  "description": "Genkit AI framework plugin for HNSW vector database. save data into vector store for Retrieval Augmented Generation (RAG) in Generative AI",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

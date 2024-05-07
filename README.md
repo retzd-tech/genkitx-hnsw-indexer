@@ -30,7 +30,7 @@ import { HNSWIndexer } from "genkitx-hnsw-indexer";
 
 export default configureGenkit({
   plugins: [
-    HNSWIndexer({ apiKey: "GOOGLE_API_KEY" })
+    HNSWIndexer({ apiKey: "YOUR_GOOGLE_API_KEY" })
   ]
 });
 ```
@@ -51,5 +51,5 @@ Execute the flow with Input and Output required parameter
 ![Genkit UI Flow Run](https://github.com/retzd-tech/genkitx-hnsw-indexer/blob/main/assets/genkit-ui-flow-plugin.png?raw=true)
 
 ### Vector Store Index Result
-Vector store will be saved in the defined Output path. this index will be used for the RAG process with the other retrieval plugin.
+Vector store will be saved in the defined Output path. this index will be used for the RAG process with the retrieval plugin. you can continue the implementation by using this retrieval plugin [here](https://www.npmjs.com/package/genkitx-hnsw).
 ![HNSW Vector](https://github.com/retzd-tech/genkitx-hnsw-indexer/blob/main/assets/vector-result.png?raw=true)

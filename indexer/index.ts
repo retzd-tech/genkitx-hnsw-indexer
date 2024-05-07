@@ -81,7 +81,7 @@ const saveHNSWIndexer = async (
   const textSplitter = getSplitter(chunkSize, separator);
   const vectorDocument = getVectorDocument(filesData, textSplitter);
 
-  return saveVectorStore(vectorDocument, apiKey, output);
+  await saveVectorStore(vectorDocument, apiKey, output);
 };
 
 export { saveHNSWIndexer };

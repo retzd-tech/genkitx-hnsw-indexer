@@ -26,7 +26,7 @@ npm install genkitx-hnsw-indexer
 ### Register HNSW Indexer Plugin
 Import the plugin into your Genkit project
 ```bash
-import { HNSWIndexer } from "genkitx-flow-rag-hnsw-indexer";
+import { HNSWIndexer } from "genkitx-hnsw-indexer";
 
 export default configureGenkit({
   plugins: [
